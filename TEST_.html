@@ -18,10 +18,10 @@
 
     </header>
     <h1>Ответьте на вопросы:</h1>
-    <p>В каждом вопросе выберите один правильный ответ из предложенных вариантов.</p>
+
     <form action="testPHP.php" method="post">
         <h2>1. Как присвоить переменной значение?</h2><br>
-
+        <p>Выберите один правильный ответ из предложенных вариантов.</p>
         <input type="radio" name="N1" value="1">
         $x = 5
         <br>
@@ -39,6 +39,7 @@
         <br>
 
         <h2>2. Какой тип значения будет в переменной $a после выполнения кода $a = '123';?</h2><br>
+        <p>Выберите один правильный ответ из предложенных вариантов.</p>
         <input type="radio" name="N2" value="1">
         string
         <br>
@@ -55,6 +56,7 @@
         boolean
         <br>
         <h2>3.Что будет в переменной $result после выполнения кода $result = 2 + 2 * 2;?</h2><br>
+
         <p><select size="2" name "">
 
                 <option disabled>Выберите один из ответов</option>
@@ -67,42 +69,43 @@
 
         <h2>4.Что будет в переменной $x после выполнения кода $x = 2; $x -= 2;?</h2><br>
         <p><select size="2" name "">
-        <option disabled>Выберите один из ответов</option>
+                <option disabled>Выберите один из ответов</option>
                 <option value="0" name="N4">2</option>
                 <option value="3" name="N4">4</option>
                 <option value="1" name="N4">0</option>
                 <option value="2" name="N4">-2</option>
             </select></p>
-            
+
 
         <h2>5.Что будет в переменной $x после выполнения кода $x = 5; $x % 2;?</h2><br>
         <p><select size="2" name "">
-            <option disabled>Выберите один из ответов</option>
-                    <option value="0" name="N5">1</option>
-                    <option value="3" name="N5">2</option>
-                    <option value="2" name="N5">0</option>
-                    <option value="1" name="N5">5</option>
-                </select></p>
-       
+                <option disabled>Выберите один из ответов</option>
+                <option value="0" name="N5">1</option>
+                <option value="3" name="N5">2</option>
+                <option value="2" name="N5">0</option>
+                <option value="1" name="N5">5</option>
+            </select></p>
+
         <h2>6.Что будет в переменной $result после выполнения кода $i = 5; $result = $i++;?</h2><br>
         <p><select size="2" name "">
-            <option disabled>Выберите один из ответов</option>
-                    <option value="0" name="N6">4</option>
-                    <option value="3" name="N6">6</option>
-                    <option value="1" name="N6">5</option>
-                    <option value="2" name="N6">2</option>
-                </select></p>
-        
+                <option disabled>Выберите один из ответов</option>
+                <option value="0" name="N6">4</option>
+                <option value="3" name="N6">6</option>
+                <option value="1" name="N6">5</option>
+                <option value="2" name="N6">2</option>
+            </select></p>
+
         <h2>7.Что будет в переменной $result после выполнения кода $i = 5; $result = ++$i;?</h2><br>
         <p><select size="2" name "">
-            <option disabled>Выберите один из ответов</option>
-                    <option value="0" name="N7">4</option>
-                    <option value="1" name="N7">6</option>
-                    <option value="2" name="N7">5</option>
-                    <option value="3" name="N7">4</option>
-                </select></p>
-        
+                <option disabled>Выберите один из ответов</option>
+                <option value="0" name="N7">4</option>
+                <option value="1" name="N7">6</option>
+                <option value="2" name="N7">5</option>
+                <option value="3" name="N7">4</option>
+            </select></p>
+
         <h2>8.Что будет в переменной $result после выполнения кода $result = (true xor true)?</h2><br>
+        <p>Выберите один правильный ответ из предложенных вариантов.</p>
         <input type="radio" name="N8" value="1">
         false
         <br>
@@ -118,33 +121,35 @@
         <input type="radio" name="N8" value="3">
         true
         <br>
-        <h2>9.Какая из этих конструкций не относится к циклам?</h2><br>
-        <input type="radio" name="N9" value="0">
+        <h2>9.Какие из этих конструкций относится к циклам?</h2><br>
+        <p>Выберите все правильные ответы из предложенных вариантов.</p>
+        <input type="radio" name="N9" value="1">
         while
         <br>
 
-        <input type="radio" name="N9" value="1">
+        <input type="radio" name="N10" value="0">
         isset
         <br>
 
-        <input type="radio" name="N9" value="2">
+        <input type="radio" name="N11" value="2">
         for
         <br>
 
-        <input type="radio" name="N9" value="3">
+        <input type="radio" name="N12" value="3">
         foreach
         <br>
-        <h2>10.С помощью какого символа в PHP можно склеить 2 строки в одну?</h2><br>
-        <input type="radio" name="N10" value="0">
-        символ доллара
+        <h2>10. Массивы в PHP могут содержать ключи типов:</h2><br>
+        <p>Выберите все правильные ответы из предложенных вариантов.</p>
+        <input type="radio" name="N13" value="0">
+        float
         <br>
 
-        <input type="radio" name="N10" value="2">
-        символ запятой
+        <input type="radio" name="N14" value="2">
+        int
         <br>
 
-        <input type="radio" name="N10" value="1">
-        символ точки
+        <input type="radio" name="N15" value="1">
+        strring
         <br><br>
 
         <button type="submit" class="submit" name="submitbtn" value="subm">Проверить</button>
